@@ -8,6 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <StackPanel VerticalAlignment="Center">
+            <Button Click="Button_Click" Content="Click Me" Margin="10"/>
+            <TextBlock Name="TextBlock" Text="TextBlock" Margin="10"/>
+        </StackPanel>
     </Grid>
 </Page>
